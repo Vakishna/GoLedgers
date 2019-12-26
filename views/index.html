@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <title>Cloud Ledgers - By Vakishna Thayalan</title>
+
+                        <!-- BOOTSTRAP AND BOOTSTRAP VUE CSS -->
+    <link rel="stylesheet" href="/static/dist/bootstrapvue/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/dist/bootstrapvue/css/bootstrap-vue.css">
+                        <!-- BOOTSTRAP AND BOOTSTRAP VUE CSS -->
+
+
+                        <!-- BOOTSTRAP AND BOOTSTRAP VUE JS -->
+    <script src="/static/dist/bootstrapvue/js/vue.js"></script>
+    <script src="/static/dist/bootstrapvue/js/bootstrap-vue.js"></script>
+                        <!-- BOOTSTRAP AND BOOTSTRAP VUE JS -->
+
+</head>
+<body>
+<div id="app">
+    <div>
+        <b-navbar toggleable="sm" type="dark" variant="dark">
+            <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
+
+            <b-navbar-brand>CloudAccounts</b-navbar-brand>
+
+            <b-collapse id="nav-text-collapse" is-nav>
+                <b-navbar-nav>
+                    <b-nav-text>Vakishna Thayalan</b-nav-text>
+                </b-navbar-nav>
+            </b-collapse>
+        </b-navbar>
+    </div>
+
+    <div>
+        <b-jumbotron>
+            <template v-slot:header>Cloud Accounts</template>
+
+            <template v-slot:lead>
+                Simple, Sophisticated, Open-Source, Accounting and Book Keeping Business Utility
+            </template>
+
+            <hr class="my-4">
+
+            <p>
+                Please select an option
+            </p>
+
+            <b-button variant="primary" href="#">Login</b-button>
+            <b-button variant="success" href="#">Learn More</b-button>
+        </b-jumbotron>
+    </div>
+</div>
+<script>
+    var app = new Vue({
+        el: '#app',
+        data: {
+            name: '',
+            message: 'Cloud Ledgers - Vakishna Thayalan 2020'
+        },
+    })
+</script>
+</body>
+<footer >
+    <div style="margin-bottom: 0px">&copy 2020 Vakishna Thayalan</div>
+</footer>
+
+</html>

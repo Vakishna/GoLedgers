@@ -1,0 +1,4 @@
+var LoggedIn = Vue.component('getInitialState', {
+    functional: true,
+    render: function()
+})

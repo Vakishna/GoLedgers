@@ -1,0 +1,13 @@
+- pipe: atlassian/google-app-engine-deploy:0.5.1
+  variables:
+    KEY_FILE: 'bdce58a869ba9a437e5265983cbe146df6aabbd3'
+    PROJECT: '1076079044097'
+    # DEPLOYABLES: '<string>' # Optional
+    # VERSION: '<string>' # Optional.
+    # BUCKET: '<string>' # Optional.
+    # IMAGE: '<string>' # Optional.
+    # PROMOTE: '<boolean>' # Optional
+    # STOP_PREVIOUS_VERSION: '<boolean>' # Optional.
+    # EXTRA_ARGS: '<string>' # Optional.
+    # DEBUG: '<boolean>' # Optional.
+    # CLOUD_BUILD_TIMEOUT: '<integer>' # Optional
