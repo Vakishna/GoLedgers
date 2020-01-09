@@ -34,7 +34,7 @@ The application includes an inbuilt API. The application also uses Auth0 Authent
 <h4>Data Persistance (MongoDB) - Started Implementation (27/12/2019)</h2>
 <p><b><i>(AEST) 01:00AM:</i></b>Persistence Now Available using MongoDB Driver.</p>
 <hr>
-<h4>PLANNED: UI/UX Implementation --- more details - (any second now....or tomorrow :)</h4>
+<h4>PLANNED: UI/UX Implementation --- more details </h4>
 
 
 
